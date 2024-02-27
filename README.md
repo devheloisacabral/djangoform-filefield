@@ -2,7 +2,7 @@
 
 - Repositório criado para estudo antes de implementação efetiva no estágio. Aprendendo sobre o `FileField` no Django e sua manipulação dentro do banco de dados (que é feita referênciando o caminho para que não ocorra sobrecarga do banco e do servidor).
 - Para envio dos dados, foi contruído um simples formulario no html, que, apesar de sua simplicidade, se não for definido o enctype="multipart/form-data em sua criação, não funcionará.
-- A criação da MEDIA_ROOT e da MEDIA_URL no settings do projeto, também é indispensável.
+- A criação da MEDIA_ROOT e da MEDIA_URL no settings do projeto também é indispensável.
 - A views terá o papel de devolver a página do formulário e de capturar e instanciar o documento enviado pelo usuário.
 - No models.py, encontramos a criação dos campos da tabela do banco de dados. 
 
